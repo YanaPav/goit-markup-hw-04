@@ -199,11 +199,40 @@ body {
   width: calc((100%-90px) / 4);
 }
 
+.preferences-list .list-item::before {
+  content: '';
+  display: block;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.preferences-list .icon-antenna::before {
+  background-image: url(../images/icons/antenna.svg);
+}
+
+.preferences-list .icon-clock::before {
+  background-image: url(../images/icons/clock.svg);
+}
+
+.preferences-list .icon-diagram::before {
+  background-image: url(../images/icons/diagram.svg);
+}
+
+.preferences-list .icon-astronaut::before {
+  background-image: url(../images/icons/astronaut.svg);
+}
+
 .preferences-title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .preferences-descr {
