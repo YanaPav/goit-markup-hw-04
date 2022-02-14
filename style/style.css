@@ -188,6 +188,10 @@ body {
 
 /* Section Preferences */
 
+.section.preferences {
+  padding-bottom: 0;
+}
+
 .preferences-list,
 .services-list,
 .team-list {
