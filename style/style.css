@@ -159,6 +159,9 @@ body {
   background-color: var(--dark-background-color);
   text-align: center;
   padding: 200px 0;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .main-title {
   font-weight: 900;
