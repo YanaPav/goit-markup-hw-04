@@ -341,7 +341,7 @@ body {
   display: flex;
 }
 
-.client-wrap {
+.client-list .link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -354,8 +354,8 @@ body {
   cursor: pointer;
 }
 
-.client-wrap:hover,
-.client-wrap:focus {
+.client-list .link:hover,
+.client-list .link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
@@ -364,8 +364,8 @@ body {
   fill: var(--icon-color);
 }
 
-.client-wrap:hover .link-icon,
-.client-wrap:focus .link-icon {
+.client-list .link:hover .link-icon,
+.client-list .link:focus .link-icon {
   fill: var(--accent-color);
 }
 
