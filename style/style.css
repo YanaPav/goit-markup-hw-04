@@ -127,13 +127,19 @@ body {
 }
 
 .header-contact-link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding: 35px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+
+.page-header .link-icon {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 .nav-link:hover,
@@ -353,8 +359,8 @@ body {
   background-color: var(--accent-color);
 }
 
-.link-icon {
-  fill: #ffffff;
+.footer .link-icon {
+  fill: var(--secondary-text-color);
   width: 20px;
   height: 20px;
 }
