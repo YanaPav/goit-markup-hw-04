@@ -75,25 +75,45 @@
           <h2 class="visually-hidden">Наши преимущества</h2>
           <!-- Заголовок скроем стилями -->
           <ul class="ul-reset preferences-list">
-            <li class="list-item icon-antenna">
+            <li class="list-item">
+              <div class="preferences-icon-wrap">
+                <svg class="link-icon">
+                  <use href="./images/icons/sprite.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="preferences-title">Внимание к деталям</h3>
               <p class="preferences-descr">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
-            <li class="list-item icon-clock">
+            <li class="list-item">
+              <div class="preferences-icon-wrap">
+                <svg class="link-icon">
+                  <use href="./images/icons/sprite.svg#icon-clock"></use>
+                </svg>
+              </div>
               <h3 class="preferences-title">Пунктуальность</h3>
               <p class="preferences-descr">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li class="list-item icon-diagram">
+            <li class="list-item">
+              <div class="preferences-icon-wrap">
+                <svg class="link-icon">
+                  <use href="./images/icons/sprite.svg#icon-diagram"></use>
+                </svg>
+              </div>
               <h3 class="preferences-title">Планирование</h3>
               <p class="preferences-descr">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li class="list-item icon-astronaut">
+            <li class="list-item">
+              <div class="preferences-icon-wrap">
+                <svg class="link-icon">
+                  <use href="./images/icons/sprite.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="preferences-title">Современные технологии</h3>
               <p class="preferences-descr">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -127,38 +147,159 @@
           <!-- Если сотрудники будут добавляться - избавимся от крайних марджинов отрицательным марджином в ul и добавим возможность переноса строк-->
           <ul class="ul-reset team-list">
             <li class="list-item">
-              <a href="" class="link-reset">
-                <img src="./images/staff/demyanenko.jpg" alt="Член команды" width="270" />
-                <div class="team-inner">
-                  <h3 class="team-subtitle">Игорь Демьяненко</h3>
-                  <p lang="en" class="team-descr">Product Designer</p>
-                </div>
-              </a>
+              <img src="./images/staff/demyanenko.jpg" alt="Член команды" width="270" />
+              <div class="team-inner">
+                <h3 class="team-subtitle">Игорь Демьяненко</h3>
+                <p lang="en" class="team-descr">Product Designer</p>
+                <ul class="ul-reset team-soc-links">
+                  <li class="list-item">
+                    <a href="" class="link-reset link instagram">
+                      <svg class="link-icon">
+                        <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list-item">
+                    <a href="" class="link-reset link twitter">
+                      <svg class="link-icon">
+                        <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list-item">
+                    <a href="" class="link-reset link facebook">
+                      <svg class="link-icon">
+                        <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list-item">
+                    <a href="" class="link-reset link linkedin">
+                      <svg class="link-icon">
+                        <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </li>
+
             <li class="list-item">
               <a href="" class="link-reset">
                 <img src="./images/staff/repina.jpg" alt="Член команды" width="270" />
                 <div class="team-inner">
                   <h3 class="team-subtitle">Ольга Репина</h3>
                   <p lang="en" class="team-descr">Frontend Developer</p>
+                  <ul class="ul-reset team-soc-links">
+                    <li class="list-item">
+                      <a href="" class="link-reset link instagram">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="link-reset link twitter">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="link-reset link facebook">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="link-reset link linkedin">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </a>
             </li>
+
             <li class="list-item">
               <a href="" class="link-reset">
                 <img src="./images/staff/tarasov.jpg" alt="Член команды" width="270" />
                 <div class="team-inner">
                   <h3 class="team-subtitle">Николай Тарасов</h3>
                   <p lang="en" class="team-descr">Marketing</p>
+                  <ul class="ul-reset team-soc-links">
+                    <li class="list-item">
+                      <a href="" class="link-reset link instagram">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="link-reset link twitter">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="link-reset link facebook">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="link-reset link linkedin">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </a>
             </li>
+
             <li class="list-item">
               <a href="" class="link-reset">
                 <img src="./images/staff/ermakov.jpg" alt="Член команды" width="270" />
                 <div class="team-inner">
                   <h3 class="team-subtitle">Михаил Ермаков</h3>
                   <p lang="en" class="team-descr">UI Designer</p>
+                  <ul class="ul-reset team-soc-links">
+                    <li class="list-item">
+                      <a href="" class="link-reset link instagram">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="link-reset link twitter">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="link-reset link facebook">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-facebook"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="list-item">
+                      <a href="" class="link-reset link linkedin">
+                        <svg class="link-icon">
+                          <use href="./images/icons/sprite.svg#icon-linkedin"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </a>
             </li>

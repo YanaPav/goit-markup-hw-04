@@ -209,19 +209,20 @@ body {
   width: calc((100%-90px) / 4);
 }
 
-.preferences-list .list-item::before {
-  content: '';
-  display: block;
+.preferences-list .preferences-icon-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-  background-size: 70px;
+  /* background-size: 70px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
-.preferences-list .icon-antenna::before {
+/* .preferences-list .icon-antenna::before {
   background-image: url(../images/icons/antenna.svg);
 }
 
@@ -235,6 +236,11 @@ body {
 
 .preferences-list .icon-astronaut::before {
   background-image: url(../images/icons/astronaut.svg);
+} */
+
+.preferences-list .link-icon {
+  width: 70px;
+  height: 70px;
 }
 
 .preferences-title {
@@ -266,7 +272,7 @@ body {
 }
 
 .team-inner {
-  padding: 30px 0;
+  padding: 30px 32px;
 }
 
 .team-subtitle {
@@ -286,6 +292,42 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 16px;
+}
+
+.team-soc-links,
+.join .soc-links {
+  display: flex;
+}
+
+.team-soc-links .link,
+.join .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.team-soc-links .link:hover,
+.team-soc-links .link:focus {
+  background-color: var(--accent-color);
+}
+
+.team-list .link-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.team-soc-links .link:hover .link-icon,
+.team-soc-links .link:focus .link-icon {
+  fill: var(--secondary-text-color);
+}
+.team-soc-links .list-item:not(:last-child),
+.join .list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 /* Footer */
@@ -322,14 +364,6 @@ body {
   margin-top: 9px;
 }
 
-.join .list-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.join .soc-links {
-  display: flex;
-}
-
 .join-text {
   font-weight: 700;
   font-size: 14px;
@@ -345,12 +379,6 @@ body {
 }
 
 .join .link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
