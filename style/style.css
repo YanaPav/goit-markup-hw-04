@@ -5,6 +5,7 @@
   --titels-color: #212121;
   --light-background-color: #f5f4fa;
   --dark-background-color: #2f303a;
+  --icon-color: #afb1b8;
 }
 
 .link-reset {
@@ -318,7 +319,7 @@ body {
 .team-list .link-icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: var(--icon-color);
 }
 
 .team-soc-links .link:hover .link-icon,
@@ -328,6 +329,40 @@ body {
 .team-soc-links .list-item:not(:last-child),
 .join .list-item:not(:last-child) {
   margin-right: 10px;
+}
+
+/* Section Clients */
+
+.client-list {
+  display: flex;
+}
+
+.client-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  /* задаем четкие размеры, т.к. размеры иконок разные */
+  border: 1px solid var(--icon-color);
+  color: var(--icon-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.client-wrap:hover,
+.client-wrap:focus {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.client-list .link-icon {
+  fill: var(--icon-color);
+}
+
+.client-wrap:hover .link-icon,
+.client-wrap:focus .link-icon {
+  fill: var(--accent-color);
 }
 
 /* Footer */
