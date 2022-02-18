@@ -384,6 +384,7 @@ body {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .contacts {
@@ -418,10 +419,6 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
-}
-
-.join {
-  padding-top: 12px;
 }
 
 .join .link {
