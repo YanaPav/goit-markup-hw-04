@@ -368,12 +368,7 @@ body {
 }
 
 .client-list .link-icon {
-  fill: var(--icon-color);
-}
-
-.client-list .link:hover .link-icon,
-.client-list .link:focus .link-icon {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 
 /* Footer */
